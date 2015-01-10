@@ -2,7 +2,7 @@
 layout: post
 title:  "500px Pricing Table"
 subtitle: "Upgrade, level up"
-date:   2014-12-06 22:34:49
+date:   2014-12-08 22:34:49
 categories: jekyll update
 img_url: 500px_pricing_table
 css-class: pricing-table
