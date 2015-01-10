@@ -1,0 +1,20 @@
+# Site settings
+title: > # Kelly Li, Designer
+email: kelly.li.chang@gmail.com
+description: > #
+  Kelly Li, designer, engineering student.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+twitter_username: Kerri_Ri
+github_username:  Kellyli
+gems: ['jekyll-less']
+# Build settings
+markdown: kramdown
+
+defaults:
+  -
+    scope:
+      path: ""      # empty string for all files
+      type: posts    # limit to posts
+    values:
+      is_post: true # automatically set is_post=true for all posts
