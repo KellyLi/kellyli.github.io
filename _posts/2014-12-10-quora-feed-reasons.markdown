@@ -23,7 +23,7 @@ css-class: quora-feed-reasons
 
 <figure>
   <img src="{{'/img/feed_reasons.png' | prepend: site.baseurl}}" alt="Quora feed reasons">
-</figure>>
+</figure>
 
 <section>
 <p>
