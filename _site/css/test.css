@@ -1,0 +1,249 @@
+body {
+  font-family: 'Noto Serif', Georgia, serif;
+}
+a:hover {
+  text-decoration: none;
+}
+p {
+  line-height: 1.6em;
+}
+.home {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.home .row {
+  margin: 40px 0 0 0;
+  text-align: center;
+}
+.home .row .col-md-6 {
+  padding: 0 50px;
+  transition: all 1s ease;
+}
+.home .row .col-md-6 .post {
+  display: block;
+}
+.home .row .col-md-6 .post .description {
+  margin-bottom: 40px;
+}
+.home .row .col-md-6 .post .description h2 {
+  font-family: Helvetica Neue;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #87868b;
+  font-size: 0.8em;
+  letter-spacing: 1.2px;
+}
+.home .row .col-md-6 .post .description p {
+  font-style: italic;
+  font-size: 0.8em;
+  color: #87868b;
+}
+.home .row .col-md-6 .post img {
+  width: 100%;
+}
+.home .row .col-md-6:hover {
+  opacity: 0.7;
+}
+.site-header {
+  padding-bottom: 5px;
+  color: #222;
+  text-align: center;
+  max-width: 1180px;
+  margin: 0 auto;
+}
+.home-page .site-header {
+  border-bottom: 1px dotted #cfccd7;
+}
+.site-header h1 {
+  color: #222;
+  letter-spacing: 0.5px;
+  font-size: 1.4em;
+  margin-top: 2em;
+}
+.site-header h2 {
+  font-size: 0.9em;
+  line-height: 1.4em;
+  margin-bottom: 15px;
+}
+.site-header ul li {
+  display: inline-block;
+  padding-right: 15px;
+}
+.site-header ul li a {
+  color: #87868B;
+  font-weight: 700;
+  transition: all 0.4s ease;
+}
+.site-header ul li a:hover {
+  text-decoration: none;
+  color: #222;
+}
+.post-hero-image {
+  width: 100%;
+  min-height: 250px;
+  text-align: center;
+  padding-top: 70px;
+  color: white;
+  margin-bottom: 50px;
+}
+.post-hero-image h1 {
+  font-weight: 700;
+  font-size: 1.8em;
+  margin: 0;
+}
+.post-hero-image h2 {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 200;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+.post-hero-image .divider {
+  width: 60px;
+  height: 2px;
+  background: white;
+  margin: 1em auto 0.9em;
+}
+.post-hero-image.quora-write {
+  background: url("/img/write_hero.jpg") center;
+}
+.post-hero-image.quora-feed-reasons {
+  background: url("/img/feed_reasons_hero.jpg") center;
+}
+.post-hero-image.feed-team-shirt {
+  background: url("/img/shirt_hero.jpg") center;
+}
+.post-hero-image.pricing-table {
+  background: url("/img/pricing_table_hero.jpg") center;
+}
+.post-hero-image.umentioned {
+  background: url("/img/umentioned_hero.jpg") center;
+}
+.post-hero-image.iso {
+  background: url("/img/iso_hero.jpg") center;
+}
+.post .post-content {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+.post .post-content p,
+.post .post-content ul,
+.post .post-content h3 {
+  line-height: 1.6em;
+}
+.post .post-content h3 {
+  font-weight: 600;
+  font-size: 1.1em;
+  margin: 10px auto;
+}
+.post .post-content section {
+  margin-bottom: 40px;
+}
+.post .post-content p,
+.post .post-content ul {
+  margin-bottom: 20px;
+}
+.post .post-content figure {
+  text-align: center;
+}
+.post .post-content img {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto 40px auto;
+}
+.post .post-content .row img {
+  width: 100%;
+  max-width: none;
+}
+.post .post-content .row .col-md-6 {
+  padding: 0;
+}
+@media (min-width: 640px) {
+  .post .post-content .row .col-md-6:first-child {
+    padding-right: 40px;
+  }
+}
+.post .post-content .CTA {
+  text-align: center;
+}
+.post .post-content .CTA a {
+  margin: 0 auto;
+  display: inline-block;
+  border: 1px solid #a7c1e4;
+  padding: 10px 20px;
+  border-radius: 6px;
+  color: #577fb5;
+  transition: all 0.3s ease;
+}
+.post .post-content .CTA a:hover {
+  background: #577fb5;
+  color: white;
+  border: 1px solid #577fb5;
+}
+.about .wrapper {
+  max-width: 800px;
+  margin: 40px auto;
+}
+.about .wrapper #me {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.about .wrapper .row {
+  padding: 0 20px;
+}
+.about .personal-links ul {
+  padding-left: 0;
+}
+.about .personal-links ul li {
+  display: inline-block;
+}
+.about .personal-links ul li a {
+  color: #999;
+  font-size: 12px;
+  padding-right: 10px;
+  padding-left: 0;
+}
+.fade-in {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeIn ease-in 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeIn ease-in 1;
+  animation: fadeIn ease-in 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 1s;
+  -moz-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-delay: 0.2s;
+  -moz-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
