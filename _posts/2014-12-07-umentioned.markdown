@@ -6,6 +6,7 @@ date:   2014-12-07 22:34:49
 categories: jekyll update
 img_url: umentioned
 css-class: umentioned
+permalink: umentioned
 ---
 <section>
   <p>

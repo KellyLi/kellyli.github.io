@@ -6,6 +6,7 @@ date:   2014-12-10 22:34:49
 categories: jekyll update
 img_url: feed_reasons
 css-class: quora-feed-reasons
+permalink: quora-feed-reasons
 ---
 <section>
   <p>

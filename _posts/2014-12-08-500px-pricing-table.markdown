@@ -6,6 +6,7 @@ date:   2014-12-08 22:34:49
 categories: jekyll update
 img_url: 500px_pricing_table
 css-class: pricing-table
+permalink: pricing-table
 ---
 <section>
   <p>

@@ -6,6 +6,7 @@ date:   2014-12-06 22:34:49
 categories: jekyll update
 img_url: feed_team_shirt
 css-class: feed-team-shirt
+permalink: feed-team-shirt
 ---
 <section>
 During my last week as a Quora intern, my mentor was super kind to let me design the shirt for the feed team! Well. Here it is! I had a lot of fun dilly dallying in Illustrator for a whole day.
