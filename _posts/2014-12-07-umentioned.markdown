@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "uMentioned"
+title: "Kelly Li - uMentioned"
+work-title:  "uMentioned"
 subtitle: "Social media app for your campus"
 date:   2014-12-07 22:34:49
 categories: jekyll update

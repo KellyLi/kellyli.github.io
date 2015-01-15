@@ -2,16 +2,18 @@
 layout: default
 ---
 <div class="post">
-  <header class="post-hero-image {{ page.css-class }}">
-        
-    <h1>{{ page.title }}</h1>
-    <div class="divider"></div>
-    <h2>{{ page.subtitle }}</h2>
-
+  <header class="post-hero-image {{ page.css-class }} ">
+    <div class="fade-in-up">
+      <h1>{{ page.work-title }}</h1>
+      <div class="divider"></div>
+      <h2>{{ page.subtitle }}</h2>
+    </div>
   </header>
 
   <article class="post-content">
     {{ content }}
   </article>
+
+  {% include post_footer.html %}
 
 </div>

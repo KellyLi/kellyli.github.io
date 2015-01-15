@@ -182,6 +182,41 @@ p {
   color: white;
   border: 1px solid #577fb5;
 }
+.up-next h1 {
+  font-weight: 700;
+  margin: 0;
+  font-size: 1em;
+}
+.up-next h2 {
+  font-weight: 700;
+  font-size: 1.8em;
+  margin: 0 0 20px 0;
+  font-style: normal;
+}
+.up-next h3 {
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 200;
+  letter-spacing: 0.2px;
+  margin: 0;
+}
+.up-next .description {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+.up-next .post-hero-image {
+  min-height: 180px;
+  padding-top: 30px;
+  margin-bottom: 0;
+}
+.up-next .divider {
+  width: 100%;
+  height: 1px;
+  background: white;
+  margin: 15px 0 20px;
+}
 .about .wrapper {
   max-width: 800px;
   margin: 40px auto;
@@ -245,5 +280,75 @@ p {
   }
   to {
     opacity: 1;
+  }
+}
+.home-page .fade-in-up,
+.post .fade-in-up {
+  opacity: 0;
+  /* make things invisible upon start */
+  -webkit-animation: fadeInUp ease-in-out 1;
+  /* call our keyframe named fadeIn, use animattion ease-in and repeat it only 1 time */
+  -moz-animation: fadeInUp ease-in-out 1;
+  animation: fadeInUp ease-in-out 1;
+  -webkit-animation-fill-mode: forwards;
+  /* this makes sure that after animation is done we remain at the last keyframe value (opacity: 1)*/
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+  -webkit-animation-duration: 0.5s;
+  -moz-animation-duration: 0.5s;
+  animation-duration: 0.5s;
+}
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -ms-transform: translateY(5px);
+    /* IE 9 */
+    -webkit-transform: translateY(5px);
+    /* Chrome, Safari, Opera */
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    -ms-transform: translateY(0);
+    /* IE 9 */
+    -webkit-transform: translateY(0);
+    /* Chrome, Safari, Opera */
+    transform: translateY(0);
+  }
+}
+@-moz-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -ms-transform: translateY(5px);
+    /* IE 9 */
+    -webkit-transform: translateY(5px);
+    /* Chrome, Safari, Opera */
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    -ms-transform: translateY(0);
+    /* IE 9 */
+    -webkit-transform: translateY(0);
+    /* Chrome, Safari, Opera */
+    transform: translateY(0);
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -ms-transform: translateY(5px);
+    /* IE 9 */
+    -webkit-transform: translateY(5px);
+    /* Chrome, Safari, Opera */
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    -ms-transform: translateY(0);
+    /* IE 9 */
+    -webkit-transform: translateY(0);
+    /* Chrome, Safari, Opera */
+    transform: translateY(0);
   }
 }

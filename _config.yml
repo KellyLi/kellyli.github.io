@@ -4,7 +4,7 @@ email: kelly.li.chang@gmail.com
 description: > #
   Kelly Li, designer, engineering student.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://kellyli.me" # the base hostname & protocol for your site
 twitter_username: Kerri_Ri
 github_username:  Kellyli
 gems: ['jekyll-less']

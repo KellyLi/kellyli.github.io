@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "500px Pricing Table"
+title: "Kelly Li - 500px Pricing Table"
+work-title:  "500px Pricing Table"
 subtitle: "Upgrade, level up"
 date:   2014-12-08 22:34:49
 categories: jekyll update

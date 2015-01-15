@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "500px ISO"
+title: "Kelly Li - 500px ISO"
+work-title:  "500px ISO"
 subtitle: "Home of the best photo stories on the web"
 date:   2014-12-09 22:34:49
 categories: jekyll update

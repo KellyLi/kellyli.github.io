@@ -1,6 +1,7 @@
 ---
 layout: post
-title:  "Feed Team"
+title: "Kelly Li - Feed Team"
+work-title:  "Feed Team"
 subtitle: "Team shirt for the Feed kids at Quora"
 date:   2014-12-06 22:34:49
 categories: jekyll update
