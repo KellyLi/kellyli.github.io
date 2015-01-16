@@ -51,7 +51,8 @@ p {
   max-width: 1180px;
   margin: 0 auto;
 }
-.home-page .site-header {
+.home-page .site-header,
+.about-page .site-header {
   border-bottom: 1px dotted #cfccd7;
 }
 .site-header h1 {

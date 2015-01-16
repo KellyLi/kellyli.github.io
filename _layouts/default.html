@@ -1,17 +1,21 @@
 <!DOCTYPE html>
 <html>
-
   {% include head.html %}
 
   <body>
 
-    {% if page.is_post %}
-      {% include header.html %}
-    {% else %}
+    {% case page.pagetype %}
+      {% when 'is_post' %}
+        {% include header.html %}
+      {% when 'is_about'%}
+      <div class="about-page">
+        {% include header.html %}
+      </div>
+      {% when 'is_home' %}
       <div class="home-page">
         {% include header.html %}
       </div>
-    {% endif %}
+    {% endcase %}
 
     <div class="page-content">
       {{ content }}
