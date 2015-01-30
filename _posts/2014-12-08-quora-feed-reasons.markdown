@@ -3,7 +3,7 @@ layout: post
 title: "Kelly Li - Quora Feed Reasons"
 work-title:  "Quora Feed Reasons"
 subtitle: "Showing your connection to the story"
-date:   2014-12-10 22:34:49
+date:   2014-12-08 22:34:49
 categories: jekyll update
 img_url: feed_reasons
 css-class: quora-feed-reasons

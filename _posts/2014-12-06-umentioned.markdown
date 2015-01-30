@@ -3,7 +3,7 @@ layout: post
 title: "Kelly Li - uMentioned"
 work-title:  "uMentioned"
 subtitle: "Social media app for your campus"
-date:   2014-12-07 22:34:49
+date:   2014-12-06 22:34:49
 categories: jekyll update
 img_url: umentioned
 css-class: umentioned
