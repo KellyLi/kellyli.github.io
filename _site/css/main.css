@@ -162,6 +162,10 @@ p {
   max-width: 800px;
   margin: 0 auto 40px auto;
 }
+.post .post-content .row {
+  margin-left: 0;
+  margin-right: 0;
+}
 .post .post-content .row img {
   width: 100%;
   max-width: none;
