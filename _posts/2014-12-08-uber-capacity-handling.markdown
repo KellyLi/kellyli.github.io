@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Uber Capacity Selection"
+work-title:  "Uber Capacity Handling"
+date:   2014-12-08 22:34:49
+permalink: uber-capacity-handling
+css-class: uber_capacity_handling
+---
+<div class='block_container text_align_center'>
+	<h1>Uber Capacity Handling</h1>
+	<h2>Driver side capacity selection to enable 3 party uberPOOL rides</h2>
+	<div class='divider'></div>
+</div>
+<section>
+	<div class='block_container'>
+		<figure class='hero_image'>
+			<img src='/img/capacity_handling_full.png'>
+		</figure>
+		<h3>Three Party POOL rides</h3>
+		<p>In order to add a third pickup to POOL rides, Uber needs to get an understanding of how many people are being picked up at each stop. Capacity Handling will allows the system to track if each pickup has 1 person or 2 people.</p>
+		<p>People may either accidentally or purposefully select 1 rider, but then actually have 2+ people. Uber need to catch this use case and offer some forgiveness in the system.</p>
+		<h3>Error Handling</h3>
+		<p>The system needs to take into account situations where the user under selects the number of passengrs and the planned uberPOOL trip cannot be completed. How should the system react if the first or second party enters 1 passenger but brings 2 instead?</p>
+		<p>We need to protect both the driver and rider in this situation, and it’s best to avoid face-to-face confrontation between the driver and rider at the cost of redispatching the third pickup. In the situation below, although the 2nd party misentered the number of passengers, it puts up too much pressure on the driver to tell the 2 passengers, in person, that they cannot be picked up. The best recovery would be to pickup the 2 passengers and redispatch the 3rd pickup.</p>
+		<figure class='redispatch'>
+			<img src='/img/redispatch.png'>
+			<figcaption>Redispatching 3rd pickup in case of 2nd pickup misentry</figcaption>
+		</figure>
+		<p>When the driver changes the number of passengers, the rider is also informed, with clear copy telling the user that if the driver made an incorrect selection, there is support available.<p>
+		<figure class='inline_image'>
+			<img src='/img/error_handling.png'>
+			<figcaption>Rider and driver side flow for changing passenger count</figcaption>
+		</figure>
+		<h3>Testing Driver Behaviour</h3>
+		<figure class='ab'>
+			<img src='/img/capacity_ab.png'>
+			<figcaption>A: Toggle defaults to user selection <br> B: Driver entry required</figcaption>
+		</figure>
+		<p>In the initial design of the toggle, the user selection was shown to the driver in the interest of reducing the amount of work needed from the driver. However, we were unsure whether drivers would be comfortable changing the user's input. Therefore, 2 version of the toggle were designed, where version A defaults the toggle to what the user selected, and version B requires the driver to enter the number of passengers at every pick up. If the mismatch rate between rider entry and driver entry is significantly higher in version B, then we know that drivers are resistant to changing rider entry.</p>
+	</div>
+</section>
+
