@@ -5,8 +5,8 @@ css-class: iso
 permalink: 500px-iso
 ---
 <div class='block_container text_align_center'>
-	<h1>Quora Notifications</h1>
-	<h2>Designing a scalable, consistent notification platform</h2>
+	<h1>500px ISO</h1>
+	<h2>Home to the best photo stories</h2>
 	<div class='divider'></div>
 </div>
 
