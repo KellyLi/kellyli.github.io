@@ -1,53 +1,23 @@
 ---
 layout: post
-title: "Uber:SPOT light"
-work-title:  "Uber:SPOT light"
-subtitle: "Find your driver with ease"
-date:   2014-12-10 22:34:49
-categories: jekyll update
-img_url: uber_spot_light
-css-class: uber-spot-light
+title: "Uber SPOTlights"
+permalink: uber-spotlights
+css-class: uber_spotlights
 ---
-At Quora, I was one of the two designers that work on the Quora writing experience. Through user studies on writer motivation and writing habits, we made a series of product changes to construct the best space for Quora users to share their knowledge with the world.
+<div class='block_container text_align_center'>
+	<h1>Uber SPOT lights</h1>
+	<h2>Light up your ride and find your driver with ease</h2>
+	<div class='divider'></div>
+</div>
 
-<figure>
-  <img src="{{'/img/quora_write/quora_write_full.png' | prepend: site.baseurl}}" alt="Quora's Write page">
-</figure>
-
+<iframe src='/edge.framer/index.html' height="800" width='500' frameBorder="0"></iframe>
 <section>
-  <h3>Here are some of the changes we made</h3>
-  <ul>
-    <li>Gave users the option to provide the system with negative signals to improve personalized question ranking</li>
-    <li>Provided motivation by making the community feel active and alive and showing users their personal progress</li>
-    <li>Made it easier for users to access questions in topics that they are experts in</li>
-  </ul>
-
+	<div class='block_container'>
+		<h3>Pickup Hiccup</h3>
+		<p>Through both quantitative data and qualitative user research, we consistently find that the pickup is the most stressful point for both the rider and the driver. People often find it difficult to identify their driver's vehicle, espeically in dense, urban areas.</p>
+		<h3>Light Up Your Ride</h3>
+		<p>To make it easier for riders to identity their driver in the busy streets, the SPOTlights feature was created. Drivers' windshields are equiped with LED lights that can change colours, and a user can choose the colour for their ride as their vehicle is arriving. Users can also hold down the particular colour to light up their entire screen to wave to the driver.</p>
+		<p>I designed and prototyped the user interface within the rider app for selecting and changing the colour of the lights. The Framer prototype here is interactive, try it out!<p>
+		<p>The feature is being piloted in Seattle, and <a href='http://techcrunch.com/2015/12/02/sorry-your-driver-is-in-another-uber/' target='_blank'>here</a> is what TechCrunch had to say about it.</p>
+	</div>
 </section>
-
-<h3>Collecting signal</h3>
-
-<div class="row">
-  <div class="col-md-6">
-    <p>
-    Quora delivers a ranked set of questions based on topics you follow, but following a topic doesn't necessarily mean that you are knowledgeable or interested in answering question about the topic. With the new Passing action, the system will learn your field of knowledge over time, delivering a more personalized list of questions.
-    </p> 
-  </div>
-  <div class="col-md-6">
-    <figure>
-      <img src="{{'/img/quora_write/write_passing.gif' | prepend: site.baseurl}}" alt="Passing Quora question">
-    </figure>
-  </div>
-
-</div>
-
-<h3>Making it easier to find questions</h3>
-
-We've also made it a lot easier for writers to access their favourite topics. Clicking on a topic in a customizable sidebar automatically loads all the questions in need of answers from that topic.
-
-<figure>
-  <img src="{{'/img/quora_write/write_pinned_topics.png' | prepend: site.baseurl}}" alt="Quora pinned topics Write page">
-</figure>
-
-<div class="CTA">
-  <a href="https://quora.com/write" target='_blank'> Quora user? See it in action </a>
-</div>
