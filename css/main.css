@@ -292,6 +292,9 @@ p {
 .post-content {
   padding-top: 50px;
 }
+.post-content a {
+  color: #02adea;
+}
 .post-content .divider {
   width: 60px;
   height: 2px;
@@ -458,6 +461,9 @@ p {
   .work {
     margin: 0;
   }
+  .work .overlay {
+    padding: 0 10px;
+  }
   .work .item,
   .work .row_4 .left_col .item {
     margin: 5px auto;
@@ -495,5 +501,24 @@ p {
   .post-content .soln {
     width: 100%;
     margin-bottom: 40px;
+  }
+  .post-content iframe {
+    display: none;
+  }
+  .post-content section {
+    padding-bottom: 20px;
+  }
+  .uber_spotlights a.framer {
+    padding: 10px;
+    border: 1px solid #02adea;
+    border-radius: 5px;
+    margin-top: 40px;
+    margin-bottom: 0;
+    display: inline-block;
+  }
+  .about .me,
+  .about .about_me {
+    width: 100%;
+    padding: 20px;
   }
 }

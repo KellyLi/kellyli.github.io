@@ -11,6 +11,12 @@ css-class: uber_spotlights
 </div>
 
 <iframe src='/edge.framer/index.html' height="800" width='500' frameBorder="0"></iframe>
+<section class='block_container mobile_only text_align_center'>
+	<figure>
+		<img src='/img/spotlight_mobile.png'>
+	</figure>
+	<p><a href='/edge.framer/index.html' class='framer'>See Framer Prototype</a></p>
+</section>
 <section>
 	<div class='block_container'>
 		<h3>Pickup Hiccup</h3>
