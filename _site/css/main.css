@@ -1,3 +1,4 @@
+
 a:hover {
   text-decoration: none;
 }
@@ -139,9 +140,11 @@ p {
   left: 0;
   z-index: 1;
   padding: 0 60px;
+  -webkit-transition: all .2s;
   transition: all .2s;
 }
 .work .overlay .divider {
+  -webkit-transition: all .3s ease;
   transition: all .3s ease;
   width: 0px;
   height: 2px;
@@ -176,8 +179,13 @@ p {
   width: 60%;
 }
 .row_1 .right_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 48%;
 }
 .row_1 .destination {
@@ -220,8 +228,13 @@ p {
   margin-bottom: 100px;
 }
 .row_4 .left_col {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 40%;
   margin-right: 20px;
 }
@@ -357,18 +370,28 @@ p {
   margin: 0 auto;
 }
 .flex_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   max-width: 960px;
   margin: 0 auto;
 }
 .reverse_dir {
-  flex-direction: row-reverse;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+      -ms-flex-direction: row-reverse;
+          flex-direction: row-reverse;
 }
 .align_center {
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+              -ms-grid-row-align: center;
+          align-items: center;
 }
 .space_between {
-  justify-content: space-between;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .block_container {
   display: block;
@@ -447,7 +470,10 @@ p {
     padding: 0;
   }
   .flex_container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .flex_container .photo,
   .flex_container .text {
