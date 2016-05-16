@@ -519,6 +519,9 @@ p {
     margin-bottom: 0;
     display: inline-block;
   }
+  .about {
+    margin-top: 40px;
+  }
   .about .me,
   .about .about_me {
     width: 100%;
