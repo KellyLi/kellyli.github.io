@@ -292,6 +292,9 @@ p {
 .post-content {
   padding-top: 50px;
 }
+.post-content h2 {
+  line-height: 1.4em;
+}
 .post-content a {
   color: #02adea;
 }
