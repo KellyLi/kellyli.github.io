@@ -4,18 +4,14 @@
 
   <body>
 
-		{% include header.html %}
-
     <div class="page-content">
       {{ content }}
     </div>
 
-		{% unless page.pagetype == 'about' %}
-				{% include footer.html %}
-		{% endunless %}
     <script src="{{ "/js/jquery-2.1.1.min.js" | prepend: site.baseurl }}"></script>
     <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
 
   </body>
+	{% include footer.html %}
 
 </html>
