@@ -4,12 +4,6 @@ title: "Messenger Bot Navigation"
 permalink: fb
 css-class: fb
 ---
-<div class="link_to_next">
-	<a href="/palantir">
-		<p>Next</p>
-		<p><strong>Palantir</strong></p>
-	</a>
-</div>
 <div class='content-wrapper'>
 	<section class="intro">
 		<h2>Facebook</h2>
