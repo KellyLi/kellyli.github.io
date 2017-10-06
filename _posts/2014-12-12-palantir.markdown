@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Messenger Bot Navigation"
+title: "Aid Delivery in Syria"
 permalink: palantir
 css-class: palantir
 ---
