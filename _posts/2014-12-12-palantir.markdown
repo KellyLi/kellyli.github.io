@@ -11,7 +11,7 @@ css-class: palantir
 		<p>Leveraging data to make humanitarian aid delivery safer and more efficient</p>
 	</section>
 </div>
-<img class="full_bleed" src="/img/palantir_1.png">
+<img class="full_bleed" src="/img/palantir_1.png"/>
 
 <div class="content-wrapper">
 	<div class="summary left_col">
@@ -46,7 +46,7 @@ css-class: palantir
 		<p>Mercy Corps had a lot of data on incidents, border status, routes, etc. However, the data is extremely dispersed and there is no single source of truth. This led to a very ad-hoc approach in route planning where decisions were made on a case to case basis.</p>
 		<p><strong>There’s an opportunity to make aid delivery safer and more efficient. We can integrate all these different data sources, couple them with analysis tools, and put them in front of human experts to help them make the right decision much faster in a systematic fashion.</strong></p>
 	</div>
-	<img class="full_bleed" src="/img/palantir_2.png">
+	<img class="full_bleed" src="/img/palantir_2.png"/>
 	<div class="desktop_only left_col"></div>
 	<div class="main_body right_col">
 		<ul>
@@ -62,7 +62,7 @@ css-class: palantir
 		<div class="h-divider"></div>
 		<p>The final product delivered to our partner was a dashboard that integrated warehouse data, security data, and routes data. Over the course of two months, it became the single source of truth for our partners. No longer was their data living in odd spreadsheets and lone Google maps.</p>
 	</div>
-	<img class="full_bleed" src="/img/palantir_3.png"></img>
+	<img class="full_bleed" src="/img/palantir_3.png"/>
 	<div class="desktop_only left_col"></div>
 	<div class="main_body right_col">
 		<h5>Situation Awareness at a Glance</h5>
@@ -70,13 +70,13 @@ css-class: palantir
 		<p>Border statuses are displayed on the map, and inaccessible routes are grayed out for an immediate assessment of coverage.</p>
 		<p>The convoy panel gives the team an overview of the day's planned convoys and highlights hi-pri issues, such as closed border, allowing the team to take immediate action and redirect the convoys.</p>
 	</div>
-	<img class="full_bleed" src="/img/palantir_4.png"></img>
+	<img class="full_bleed" src="/img/palantir_4.png"/>
 	<div class="desktop_only left_col"></div>
 	<div class="right_col">
 		<h5>Single Souce of Truth</h5>
 		<p>The dashboard integrates commodity data, security data, and routes data – the three main datasets for the Planning, Security, and Logistics team. By having a dashboard that all teams can refer to, it is much easier to communicate across teams and reduce friction in decision making.</p>
 	</div>
-	<img class="full_bleed" src="/img/palantir_5.png"></img>
+	<img class="full_bleed" src="/img/palantir_5.png"/>
 	<div class="desktop_only left_col"></div>
 	<div class="main_body right_col">
 		<h5>Data Driven Decision Making</h5>

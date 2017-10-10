@@ -6,6 +6,7 @@ $( document ).ready(function() {
 $(window).resize(function() {
 	var w = window.innerWidth;
 	if (w < 1200) {
+		console.log('here');
 		$(document.getElementById('portrait')).css("left", w *.6 + 'px');
 	}
 }

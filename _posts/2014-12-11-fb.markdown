@@ -11,7 +11,7 @@ css-class: fb
 		<p>Exploring alternative bot navigations for better feature discovery and navigation</p>
 	</section>
 </div>
-<img class="full_bleed" src="/img/fb_1.png">
+<img class="full_bleed" src="/img/fb_1.png"/>
 
 <div class="content-wrapper">
 	<div class="summary left_col">
@@ -47,7 +47,7 @@ css-class: fb
 		<h4>Approach</h4>
 		<div class="h-divider"></div>
 		<p>The current bot guides new users through the bill payment process. To access other features, a user needs to tap on the hamburger menu at the bottom of the screen.</p>
-		<img src="/img/fb_2.png">
+		<img src="/img/fb_2.png"/>
 		<p class="caption">Existing Menu</p>
 		<p>The current menu is limited in a few ways:</p>
 		<p>1. The features listed in the menu seem independent and disconnected, and there’s no logical to how they are ordered</p>
@@ -57,11 +57,11 @@ css-class: fb
 		<p><strong>We can create a custom menu to alleviate these problems and establish a clear mental model for users to access and discover features.</strong></p>
 		<h4>Solution Exploration</h4>
 		<div class="h-divider"></div>
-		<img src="/img/fb_3.png"></img>
+		<img src="/img/fb_3.png"/>
 		<p>Before putting down any pixels, I thought of all the different approaches we can take. Architecture wise, we can have a multi-level or single-level menu, it can be static or dynamic. Depending on the architecture, the mechanic of the menu can be a horizontal scroll, a drop down, a spring board, or action sheet. During the early stage of the project, used these sketches to test out the viability of these ideas, and to get quick feedback from the team.</p>
 		<p>Based on feedback, I made higher fidelity mockups of the most promising ideas.</p>
 		<h4>Option A: Ranked horizontal scroll</h4>
-		<img src="/img/fb_4.png">
+		<img src="/img/fb_4.png"/>
 		<p>The first option is to display the features as a horizontal scroll of individual options. For a new user, the list would be ranked by the feature’s global popularity, where the most commonly used option by all users would be displayed first. For a returning user, the list would be ranked through a combination of frequency and recency of use.</p>
 		<ul>
 			<li><strong>Pros</strong></li>
@@ -77,7 +77,7 @@ css-class: fb
 		</ul>
 
 		<h4>Option B: Shortcuts and hidden menu</h4>
-		<img src="/img/fb_5.png">
+		<img src="/img/fb_5.png"/>
 		<p>The second way to display the features is to show the three highest ranked features in the horizontal list upfront, and display the rest in a springboard when the user taps on the All menu item. </p>
 		<ul>
 			<li><strong>Pros</strong></li>
@@ -92,7 +92,7 @@ css-class: fb
 		</ul>
 
 		<h4>Option C: Top Level Categorization</h4>
-		<img src="/img/fb_6.png">
+		<img src="/img/fb_6.png"/>
 		<p>The third solution is to display the top level categories upfront, and display the list of features when a category is tapped on.</p>
 		<ul>
 			<li><strong>Pros</strong></li>
@@ -111,21 +111,21 @@ css-class: fb
 	<div class = "main_body">
 		<h4>Final Design</h4>
 		<div class="expanded">
-			<img src="/img/fb_7.png">
+			<img src="/img/fb_7.png"/>
 			<div class="description">
 				<h5>Helpful & Friendly</h5>
 				<p>The menu is expanded by default when you launch the app, directing your attention to the starting point. Each feature is accompanied by a description, making it friendly even for those who have never used online financial services before.</p>
 			</div>
 		</div>
 		<div class="collapsed">
-			<img src="/img/fb_8.png">
+			<img src="/img/fb_8.png"/>
 			<div class="description">
 				<h5>Easy to Use</h5>
 				<p>The peeking menu and drag handles offer clear tap and swipe affordances. The menu can be expanded to any cateogry via a single tap, making discovery and navigation fast and easy.</p>
 			</div>
 		</div>
 		<div class="partner">
-			<img src="/img/fb_9.png">
+			<img src="/img/fb_9.png"/>
 			<div class="description">
 				<h5>Partner Friendly</h5>
 				<p>Menu options can receive special treatments based on partner needs. For example, a discount promotion will have a visually salient badge, and premium features can have inline CTAs for account upgrades.</p>
