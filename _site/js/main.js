@@ -4,12 +4,9 @@ $( document ).ready(function() {
 });
 
 $(window).resize(function() {
-	console.log('here');
 	var w = window.innerWidth;
-	console.log(w)
 	if (w < 1200) {
 		$(document.getElementById('portrait')).css("left", w *.6 + 'px');
 	}
-
 }
 );
