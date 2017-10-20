@@ -45,6 +45,10 @@ css-class: palantir
 		<div class="h-divider"></div>
 		<p>Mercy Corps had a lot of data on incidents, border status, routes, etc. However, the data is extremely dispersed and there is no single source of truth. This led to a very ad-hoc approach in route planning where decisions were made on a case to case basis.</p>
 		<p><strong>There’s an opportunity to make aid delivery safer and more efficient. We can integrate all these different data sources, couple them with analysis tools, and put them in front of human experts to help them make the right decision much faster in a systematic fashion.</strong></p>
+		<h4>Process</h4>
+		<div class='h-divider'></div>
+		<p>To design a solution that both solves existing pain points and is compatible with the existing process, we needed an accurate understanding of our user’s objectives and current workflow.
+		Based on our weekly calls with the logistics coordinator operating in the field, and past transcripts, I modelled the current workflow in a workflow diagram.</p>
 	</div>
 	<img class="full_bleed" src="/img/palantir_2.png"/>
 	<div class="desktop_only left_col"></div>
