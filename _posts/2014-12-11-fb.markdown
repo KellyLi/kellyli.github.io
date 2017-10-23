@@ -107,9 +107,9 @@ css-class: fb
 			<li>Every feature requires two taps to access</li>
 		</ul>
 		<p>This option was chosen as the basis for the final design as it is simple to use and addresses the issue of feature discoverability the best. Users can quickly tap through the top level categories and browse through the feature set in a systematic fashion. The solution underwent one further round of iteration, and the final results are shown below.</p>
+		<h4>Final Design</h4>
 	</div>
 	<div class = "main_body">
-		<h4>Final Design</h4>
 		<div class="expanded">
 			<img src="/img/fb_7.png"/>
 			<div class="description">

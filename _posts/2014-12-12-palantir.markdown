@@ -23,7 +23,7 @@ css-class: palantir
 			</tr>
 			<tr>
 				<th>Team</th>
-				<th>1 Deployment Strategist, 2 Software Engineers</th>
+				<th>1 deployment strategist, 2 engineers</th>
 			</tr>
 			<tr>
 				<th>Tools</th>
