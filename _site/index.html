@@ -10,17 +10,17 @@
   <meta name="description" content="Kelly Li, designer, engineering student.
 ">
 
-  <link rel="stylesheet" href="/css/bootstrap.min.css">
+
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://kellyli.me/">
-  <link rel="alternate" type="application/atom+xml" title="" href="http://kellyli.me/feed.xml" />
-	<link href='https://fonts.googleapis.com/css?family=Arimo:400:700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Vollkorn' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=PT+Mono' rel='stylesheet' type='text/css'>
-	<link rel="shortcut icon" type="image/png" href="/img/favicon.png">
+  <link rel="canonical" href="http://localhost:4000/">
+  <link rel="alternate" type="application/atom+xml" title="" href="http://localhost:4000/feed.xml" />
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap" rel="stylesheet">
+	<link rel="shortcut icon" type="image/svg" href="/img/logo.png">
 
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 	<script src="/js/parallax.min.js"></script>
+  <scrip src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js.map"></scrip>
   <script>
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -38,76 +38,103 @@
   <body>
 
     <div class="page-content">
-      <div id="#home" class="home">
+      <div id="home" class="home">
+	<div id='frame-top-left'></div>
+	<div id='frame-top-right'></div>
+	<div id='frame-left'></div>
+	<div id='frame-right'></div>
 	<div class='content-wrapper'>
-		<section class='intro'>
-			<div class = "bg-circle desktop_only"></div>
-			<div>
+		<section class='intro flex'>
+			<div class='resume'>
 				<h1>Kelly Li</h1>
-				<h2>Product designer from Toronto with a background in Systems Design Engineering.</h2>
-				<div class='h-divider'></div>
-				<div class = 'timeline'>
-					<ul class="companies">
-						<li>Facebook</li>
-						<li>Palantir</li>
-						<li>Uber</li>
-						<li>Quora</li>
-						<li>500px</li>
-					</ul>
-					<ul class="dates">
-						<li>–  2017</li>
-						<li>–  2016</li>
-						<li>–  2015</li>
-						<li>–  2014</li>
-						<li>–  2013</li>
-					</ul>
+				<div class="flex flex-baseline"><h2>designer</h2><div class='big_x'></div><h2>engineer</h2></div>
+				<div class='squiggle'></div>
+				<div class = 'timeline flex'>
+					<div class="company flex">
+						<p>Quora</p>
+						<div class='date'>
+							<div class='dash'></div>
+							<p>now</p>
+						</div>
+					</div>
+					<h3>Internships</h3>
+					<div class="company flex">
+						<p>Facebook</p>
+						<div class='date'>
+							<div class='dash'></div>
+							<p>2017</p>
+						</div>
+					</div>
+					<div class="company flex">
+						<p>Palantir</p>
+						<div class='date'>
+							<div class='dash'></div>
+							<p>2016</p>
+						</div>
+					</div>
+					<div class="company flex">
+						<p>Uber</p>
+						<div class='date'>
+							<div class='dash'></div>
+							<p>2015</p>
+						</div>
+					</div>
+					<div class="company flex">
+						<p>Quora</p>
+						<div class='date'>
+							<div class='dash'></div>
+							<p>2014</p>
+						</div>
+					</div>
+					<div class="company flex">
+						<p>500px</p>
+						<div class='date'>
+							<div class='dash'></div>
+							<p>2013</p>
+						</div>
+					</div>
 				</div>
 			</div>
-			<div class = "line desktop_only"></div>
 			<div id = "scene" class="desktop_only">
-				<div data-depth="0.1"><img class="plants" src="/img/plants.png"></img></div>
-				<div data-depth="0.2"><img id="portrait" class="portrait" src="/img/portrait.png"></img></div>
+				<div data-depth="0.1" class="dots"><img src="/img/dots.png"></img></div>
+				<div data-depth="0.2" class="field"><img src="/img/field.png"></img></div>
+				<div data-depth="0.3" class="portrait"><img src="/img/selfie.png"></img></div>
 			</div>
-			<h3 class = "desktop_only" >Projects</h3>
-			<p class="desktop_only">Check out case studies of my past projects below</p>
+			
 		</section>
 
-		<section class="work">
-			<div class="fb">
-				<h1 class="number">01</h1>
+		<div class="case-studies-label">
+			<div>
+				<p>case studies</p>
+				<div class="arrow-down"><img src="/img/arrow_down.svg"></img></div>
+			</div>
+		</div>
+
+		<section class="case-studies">
+			<div class="case-study fb">
 				<h2>Facebook</h2>
-				<h1>Messenger Bot Navigation</h1>
-				<p>Exploring alternative bot navigations for better feature discovery and navigation</p>
-				<div class='tag'>interaction design</div>
-				<div class='tag'>visual design</div>
+				<div class='squiggle'></div>
+				<h1>Messenger Chatbot Navigation</h1>
+				<p>Exploring alternative chatbot navigations for better feature discovery and navigation</p>
 				<img src="/img/facebook_cover.png"></img>
 				<a href="/fb" class="button">View Case Study</a>
 			</div>
-
-			<div class="palantir">
-				<h1 class="number">02</h1>
+			<div class="case-study palantir">
 				<h2>Palantir</h2>
-				<h1>Aid Delivery in Syria</h1>
+				<div class='squiggle'></div>
+				<h1>Syrian Aid Delivery Planner</h1>
 				<p>Leveraging data to make humanitarian aid delivery safer and more efficient</p>
-				<div class='tag'>interaction design</div>
-				<div class='tag'>visual design</div>
-				<div class='tag'>user research</div>
-				<div class='tag'>product management</div>
 				<img src="/img/palantir_cover.png"></img>
 				<a href="/palantir" class="button">View Case Study</a>
 			</div>
-
-			<div class="uber_capacity">
-				<h1 class="number">03</h1>
+			<div class="case-study uber">
 				<h2>Uber</h2>
-				<h1>Uber Capacity Tracking</h1>
-				<p>Tracking butts in seats to enable 3 party uberPOOl rides</p>
-				<div class='tag'>interaction design</div>
-				<div class='tag'>visual design</div>
+				<div class='squiggle'></div>
+				<h1>UberPOOL Capacity Tracking</h1>
+				<p>Tracking butts in seats to enable 3 party uberPOOL rides</p>
 				<img src="/img/uber_capacity_cover.png"></img>
-				<a href="/uber-capacity" class="button">View Case Study</a>
+				<a href="/uber" class="button">View Case Study</a>
 			</div>
-
 		</section>
 	</div>
 </div>
@@ -120,9 +147,7 @@
 
   </body>
 	<footer class="site-footer">
-  <div class="content-wrapper">
-		© 2017 Kelly Li
-  </div>
+		© 2020 Kelly Li
 </footer>
 
 

@@ -7,11 +7,12 @@ css-class: palantir
 <div class='content-wrapper'>
 	<section class="intro">
 		<h2>Palantir</h2>
+		<div class="squiggle"></div>
 		<h1>Aid Delivery in Syria</h1>
 		<p>Leveraging data to make humanitarian aid delivery safer and more efficient</p>
 	</section>
 </div>
-<img class="full_bleed" src="/img/palantir_1.png"/>
+<img class="full_bleed cover" src="/img/palantir_1.png"/>
 
 <div class="content-wrapper">
 	<div class="summary left_col">
@@ -38,15 +39,15 @@ css-class: palantir
 
 	<div class="main_body right_col">
 		<h4 class="margin_top_none">Background</h4>
-		<div class="h-divider"></div>
+		<div class="squiggle"></div>
 		<p>On the Philanthropy team, Palantir partners with non profit organizations to help them take a data driven approach to solve some of the world’s most pressing issues. My team in particular partnered with Mercy Corps, a major aid delivery organization, to make aid delivery in Syria safer and more effective.</p>
 
 		<h4>Problem and Opportunity</h4>
-		<div class="h-divider"></div>
+		<div class="squiggle"></div>
 		<p>Mercy Corps had a lot of data on incidents, border status, routes, etc. However, the data is extremely dispersed and there is no single source of truth. This led to a very ad-hoc approach in route planning where decisions were made on a case to case basis.</p>
 		<p><strong>There’s an opportunity to make aid delivery safer and more efficient. We can integrate all these different data sources, couple them with analysis tools, and put them in front of human experts to help them make the right decision much faster in a systematic fashion.</strong></p>
 		<h4>Process</h4>
-		<div class='h-divider'></div>
+		<div class='squiggle'></div>
 		<p>To design a solution that both solves existing pain points and is compatible with the existing process, we needed an accurate understanding of our user’s objectives and current workflow.
 		Based on our weekly calls with the logistics coordinator operating in the field, and past transcripts, I modelled the current workflow in a workflow diagram.</p>
 	</div>
@@ -63,7 +64,7 @@ css-class: palantir
 		</ul>
 
 		<h4>Final Design</h4>
-		<div class="h-divider"></div>
+		<div class="squiggle"></div>
 		<p>The final product delivered to our partner was a dashboard that integrated warehouse data, security data, and routes data. Over the course of two months, it became the single source of truth for our partners. No longer was their data living in odd spreadsheets and lone Google maps.</p>
 	</div>
 	<img class="full_bleed" src="/img/palantir_3.png"/>

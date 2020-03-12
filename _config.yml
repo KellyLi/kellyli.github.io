@@ -5,7 +5,7 @@ description: > #
   Kelly Li, designer, engineering student.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kellyli.me" # the base hostname & protocol for your site
-twitter_username: Kerri_Ri
+twitter_username: kyl_cl
 github_username:  Kellyli
 gems: ['jekyll-less']
 # Build settings

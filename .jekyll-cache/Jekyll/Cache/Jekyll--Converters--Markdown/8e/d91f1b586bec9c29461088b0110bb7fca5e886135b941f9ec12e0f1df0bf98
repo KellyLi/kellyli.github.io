@@ -1,0 +1,88 @@
+I",<div class="content-wrapper">
+	<section class="intro">
+		<h2>Palantir</h2>
+		<h1>Aid Delivery in Syria</h1>
+		<p>Leveraging data to make humanitarian aid delivery safer and more efficient</p>
+	</section>
+</div>
+<p><img class="full_bleed" src="/img/palantir_1.png" /></p>
+
+<div class="content-wrapper">
+	<div class="summary left_col">
+		<h3>My main project at Palantir was to design a route planning dashboard to aid the daily decisions taken by Mercy Corps’ logistics coordinators.</h3>
+		<table>
+			<tr>
+				<th>Role</th>
+				<th>product designer</th>
+			</tr>
+			<tr>
+				<th>Team</th>
+				<th>1 deployment strategist, 2 engineers</th>
+			</tr>
+			<tr>
+				<th>Tools</th>
+				<th>Sketch, Principle, CSS</th>
+			</tr>
+			<tr>
+				<th>Timeline</th>
+				<th>8 weeks</th>
+			</tr>
+		</table>
+	</div>
+
+	<div class="main_body right_col">
+		<h4 class="margin_top_none">Background</h4>
+		<div class="squiggle"></div>
+		<p>On the Philanthropy team, Palantir partners with non profit organizations to help them take a data driven approach to solve some of the world’s most pressing issues. My team in particular partnered with Mercy Corps, a major aid delivery organization, to make aid delivery in Syria safer and more effective.</p>
+
+		<h4>Problem and Opportunity</h4>
+		<div class="squiggle"></div>
+		<p>Mercy Corps had a lot of data on incidents, border status, routes, etc. However, the data is extremely dispersed and there is no single source of truth. This led to a very ad-hoc approach in route planning where decisions were made on a case to case basis.</p>
+		<p><strong>There’s an opportunity to make aid delivery safer and more efficient. We can integrate all these different data sources, couple them with analysis tools, and put them in front of human experts to help them make the right decision much faster in a systematic fashion.</strong></p>
+		<h4>Process</h4>
+		&lt;div class="squiggle'&gt;</div>
+		<p>To design a solution that both solves existing pain points and is compatible with the existing process, we needed an accurate understanding of our user’s objectives and current workflow.
+		Based on our weekly calls with the logistics coordinator operating in the field, and past transcripts, I modelled the current workflow in a workflow diagram.</p>
+	</div>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;img class="full_bleed" src="/img/palantir_2.png"/&gt;
+&lt;div class="desktop_only left_col"&gt;&lt;/div&gt;
+&lt;div class="main_body right_col"&gt;
+	&lt;ul&gt;
+	&lt;li&gt;&lt;strong&gt;These are the main findings of the exercise:&lt;/strong&gt;&lt;/li&gt;
+	&lt;li&gt;1. Getting plans approved by the Security team is a high friction point&lt;/li&gt;
+	&lt;li&gt;2. Logistics receives delivery plans from Programming team, and decides on a daily basis how to send each convoy&lt;/li&gt;
+	&lt;li&gt;3. Convoys take the primary routes when possible, and use secondary routes as an alternative depending on the security situation&lt;/li&gt;
+	&lt;li&gt;4. Closed borders are communicated via phone by the truck drivers or people stationed at the border, which is inefficient&lt;/li&gt;
+	&lt;li&gt;5. Decisions on whether to send a convoy is dependent on incident &lt;strong&gt;trends over time&lt;/strong&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+
+	&lt;h4&gt;Final Design&lt;/h4&gt;
+	&lt;div class="squiggle"&gt;&lt;/div&gt;
+	&lt;p&gt;The final product delivered to our partner was a dashboard that integrated warehouse data, security data, and routes data. Over the course of two months, it became the single source of truth for our partners. No longer was their data living in odd spreadsheets and lone Google maps.&lt;/p&gt;
+&lt;/div&gt;
+&lt;img class="full_bleed" src="/img/palantir_3.png"/&gt;
+&lt;div class="desktop_only left_col"&gt;&lt;/div&gt;
+&lt;div class="main_body right_col"&gt;
+	&lt;h5&gt;Situation Awareness at a Glance&lt;/h5&gt;
+	&lt;p&gt;Primary and Secondary routes are colour coded by their security risk via guidelines we developed together with our partners.&lt;/p&gt;
+	&lt;p&gt;Border statuses are displayed on the map, and inaccessible routes are grayed out for an immediate assessment of coverage.&lt;/p&gt;
+	&lt;p&gt;The convoy panel gives the team an overview of the day's planned convoys and highlights hi-pri issues, such as closed border, allowing the team to take immediate action and redirect the convoys.&lt;/p&gt;
+&lt;/div&gt;
+&lt;img class="full_bleed" src="/img/palantir_4.png"/&gt;
+&lt;div class="desktop_only left_col"&gt;&lt;/div&gt;
+&lt;div class="right_col"&gt;
+	&lt;h5&gt;Single Souce of Truth&lt;/h5&gt;
+	&lt;p&gt;The dashboard integrates commodity data, security data, and routes data – the three main datasets for the Planning, Security, and Logistics team. By having a dashboard that all teams can refer to, it is much easier to communicate across teams and reduce friction in decision making.&lt;/p&gt;
+&lt;/div&gt;
+&lt;img class="full_bleed" src="/img/palantir_5.png"/&gt;
+&lt;div class="desktop_only left_col"&gt;&lt;/div&gt;
+&lt;div class="main_body right_col"&gt;
+	&lt;h5&gt;Data Driven Decision Making&lt;/h5&gt;
+	&lt;p&gt;Incident trends overtime help our partners to avoid areas that where conflict is escalating.&lt;/p&gt;
+	&lt;p&gt;Time heatmaps of when incidents allow for smarter planning of when to send convoys to minimize security risk.&lt;/p&gt;
+&lt;/div&gt;
+</code></pre></div></div>
+
+<p>&lt;/div&gt;</p>
+
+:ET

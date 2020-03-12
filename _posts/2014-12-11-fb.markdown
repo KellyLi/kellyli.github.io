@@ -7,6 +7,7 @@ css-class: fb
 <div class='content-wrapper'>
 	<section class="intro">
 		<h2>Facebook</h2>
+		<div class="squiggle"></div>
 		<h1>Messenger Bot Navigation</h1>
 		<p>Exploring alternative bot navigations for better feature discovery and navigation</p>
 	</section>
@@ -37,15 +38,15 @@ css-class: fb
 	</div>
 	<div class="main_body right_col">
 		<h4 class="margin_top_none">Background</h4>
-		<div class="h-divider"></div>
+		<div class="squiggle"></div>
 		<p>Accord to World Bank data, In the Philippines, only 28% of the population have an account with a financial institution. Through user research, it was found that paying a bill regularly takes people 40 mintues.</p>
 		<p>Facebook partners with local payment service providers, such as PayMaya in the Phillippines, to build bots that make financial services ubiquitous, giving people back their time for more value generating activities.</p>
 		<h4>Problem</h4>
-		<div class="h-divider"></div>
+		<div class="squiggle"></div>
 		<p>Conversational user interfaces leverage people’s familiarity with texting messaging to create intuitive interfaces that require no additional learning to use. However, the single threaded nature of conversational UI makes discovery of features difficult. The true value of the MFS bot lies in that it’s a comprehensive set of financial tools that makes the lives of its users easier, not just the first feature that is exposed in the conversation thread.</p>
 		<p><strong>How can we make our whole suite of financial tools discoverable and understandable?</strong></p>
 		<h4>Approach</h4>
-		<div class="h-divider"></div>
+		<div class="squiggle"></div>
 		<p>The current bot guides new users through the bill payment process. To access other features, a user needs to tap on the hamburger menu at the bottom of the screen.</p>
 		<img src="/img/fb_2.png"/>
 		<p class="caption">Existing Menu</p>
@@ -56,7 +57,7 @@ css-class: fb
 		<p>4. The menu is not scalable to more than 5 items</p>
 		<p><strong>We can create a custom menu to alleviate these problems and establish a clear mental model for users to access and discover features.</strong></p>
 		<h4>Solution Exploration</h4>
-		<div class="h-divider"></div>
+		<div class="squiggle"></div>
 		<img src="/img/fb_3.png"/>
 		<p>Before putting down any pixels, I thought of all the different approaches we can take. Architecture wise, we can have a multi-level or single-level menu, it can be static or dynamic. Depending on the architecture, the mechanic of the menu can be a horizontal scroll, a drop down, a spring board, or action sheet. During the early stage of the project, used these sketches to test out the viability of these ideas, and to get quick feedback from the team.</p>
 		<p>Based on feedback, I made higher fidelity mockups of the most promising ideas.</p>
@@ -108,6 +109,7 @@ css-class: fb
 		</ul>
 		<p>This option was chosen as the basis for the final design as it is simple to use and addresses the issue of feature discoverability the best. Users can quickly tap through the top level categories and browse through the feature set in a systematic fashion. The solution underwent one further round of iteration, and the final results are shown below.</p>
 		<h4>Final Design</h4>
+		<div class="squiggle"></div>
 	</div>
 	<div class = "main_body">
 		<div class="expanded">
