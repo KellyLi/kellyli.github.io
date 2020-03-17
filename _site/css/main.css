@@ -560,35 +560,45 @@ Posts
 .post.palantir li {
   padding-bottom: 15px;
 }
-@media (max-width: 1200px) {
-  .content-wrapper {
-    width: 90%;
-  }
-}
-@media (max-width: 600px) {
+
+@media (max-width: 500px) {
   .desktop_only {
     display: none !important;
   }
+
   .home .intro {
-    margin-top: 50px;
+    margin: 60px 0 60px 0;
   }
-  .home .intro h2,
-  .home .intro .timeline {
-    width: 100%;
-  }
-  .home .work {
+
+  .resume {
     width: 90%;
-    margin-top: 40px;
+    margin: 0;
+    margin-left: 20px;
   }
-  .home .work .tag {
-    margin-bottom: 10px;
+
+  .case-studies {
+    margin-left: 20px;
+    width: calc(100% - 40px);
   }
-  .home .work img {
-    margin-top: 40px;
+
+  footer {
+    width: calc(100% - 40px);
+    margin-left: 20px;
   }
+
+
+  .post {
+    width: calc(100% - 40px);
+    margin-left: 20px;
+  }
+
   .post .left_col,
   .post .right_col {
     width: 100%;
+  }
+
+  .post .left_col {
+    margin-bottom: 50px;
   }
   .post.fb .expanded,
   .post.fb .collapsed,
@@ -606,4 +616,4 @@ Posts
   .post.palantir .full_bleed {
     margin-bottom: 30px;
   }
-}*/
+}
