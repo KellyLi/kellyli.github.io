@@ -1,12 +1,12 @@
 # Site settings
-title: > # Kelly Li, Designer
+title: Kelly Li, Designer
 email: kelly.li.chang@gmail.com
 description: > #
-  Kelly Li, designer, engineering student.
+  Kelly Li, designer x engineer
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://kellyli.me" # the base hostname & protocol for your site
 twitter_username: kyl_cl
-github_username:  Kellyli
+github_username:  kellyli
 gems: ['jekyll-less']
 # Build settings
 markdown: kramdown
