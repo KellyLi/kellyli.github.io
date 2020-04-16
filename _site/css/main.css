@@ -638,6 +638,10 @@ Quora
   background: #E6E7E8;
 }
 
+.quora .writer_list {
+  margin: 40px 0 20px;
+}
+
 .quora .writer_list .writer  {
   margin-bottom: 20px;
 }
@@ -654,10 +658,11 @@ Quora
   margin-right: 10px;
 }
 
-.quora .tinder_ddg {
+.quora .tinder_ddg,
+.quora .next_step_q1 {
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 40px;
 }
 
 .quora .circle {
@@ -674,7 +679,8 @@ Quora
   font-weight: bold;
 }
 
-.quora .tinder_ddg figure {
+.quora .tinder_ddg figure,
+.quora .next_step_q1 figure {
   width: calc(50% - 40px);
   margin: 0;
 }
@@ -715,8 +721,9 @@ Quora
 }
 
 .quora .quora_customize_cta figure {
-  width: calc(20% - 10px);
+  width: calc(25% - 20px);
   margin-bottom: 10px;
+  margin-right: 20px;
 }
 
 .quora .main_body img {

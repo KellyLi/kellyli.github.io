@@ -41,7 +41,7 @@ css-class: quora
 		<div class="squiggle"></div>
 		<p>Towards the end of 2019, the monetization team at Quora focused on exploring what a new stream of revenue outside of ads might look like. We decided to pursue <strong>a paid subscription to a suite of business oriented tools that would allow businesses to grow by leveraging their presence on Quora</strong>
 		</p>
-		<h4>Writing for Your Businesss</h4>
+		<h4>Writing for Your Business</h4>
 		<div class="squiggle"></div>
 		<p>Businesses like <a href="https://www.quora.com/profile/Jason-M.-Lemkin" target="_">SaaStr</a> and <a href="https://www.quora.com/profile/Gabriel-Weinberg" target="_">DuckDuckGo</a> have found enormous success growing their businesses by having their CEOs write expert answers to questions in their domain expertise— proving Quora's Q&A format and distribution network as a valuable channel to reach valuable customers and raise brand awareness.</p>
 	</div>
@@ -187,46 +187,59 @@ css-class: quora
 		</figure>
 		<figure>
 			<img src="/img/quora_account_switcher_2.png"/>
+			<figcaption>List of all business profiles associated with personal account</figcaption>
 		</figure>
 		<figure>
 			<img src="/img/quora_account_switcher_3.png"/>
 		</figure>
 		<figure>
 			<img src="/img/quora_account_switcher_4.png"/>
+			<figcaption>Composer now shows only business brand identity</figcaption>
 		</figure>
 	</div>
 	<div class="main_body left_col"></div>
 	<div class="main_body right_col">
-		<h4>Customizable Answer Actions</h4>
+		<h4 class="margin_top_none">Customizable Answer Actions</h4>
 		<div class="squiggle"></div>
 		<p>Thanks to data and web tracking technologies, one advantage of online advertising is the ability to clearly quantify the return on ad spend. Most businesses and advertisers on Quora fall into this category where they have a target cost per action or cost per lead they need  to fulfill in order to justify their investment in Quora. Therefore, <strong>it's extremely important to allow businesses to drive users to take a measurable action they care about</strong> — usually in the form of visiting an external site, or filling in a lead generation form.</p>
 		<img src="img/quora_customizable_action_options.png"/>
 		<p>One feature I designed for promotional answers is a customizable action, where the business can customize its behaviour to be an action that drives growth for their business.</p>
 	</div>
-	<div class="main_body quora_customize_cta flex">
-		<figure>
-			<img src="/img/quora_customize_cta_1.png"/>
-		</figure>
-		<figure>
-			<img src="/img/quora_customize_cta_2.png"/>
-			<figcaption>Choose between different marketing objectives</figcaption>
-		</figure>
-		<figure>
-			<img src="/img/quora_customize_cta_3.png"/>
-			<figcaption>Preview of action updates as user explores different options</figcaption>
-		</figure>
-		<figure>
-			<img src="/img/quora_customize_cta_4.png"/>
-		</figure>
+	<div class="main_body quora_customize_cta">
+		<div class="flex">
 			<figure>
-			<img src="/img/quora_customize_cta_5.png"/>
-			<figcaption>Answer action is updated</figcaption>
-		</figure>
+				<img src="/img/quora_customize_cta_1.png"/>
+			</figure>
+			<figure>
+				<img src="/img/quora_customize_cta_2.png"/>
+				<figcaption>Choose between different marketing objectives</figcaption>
+			</figure>
+			<figure>
+				<img src="/img/quora_customize_cta_3.png"/>
+				<figcaption>Preview of action button updates as user explores different options</figcaption>
+			</figure>
+			<figure>
+				<img src="/img/quora_customize_cta_4.png"/>
+			</figure>
+		</div>
+		<div class="flex">
+			<figure>
+				<img src="/img/quora_customize_cta_5.png"/>
+				<figcaption>Answer action is updated</figcaption>
+			</figure>
+			<figure>
+				<img src="/img/quora_customize_cta_6.png"/>
+				<figcaption>Clicking on action button now leads to landing page</figcaption>
+			</figure>
+			<figure>
+				<img src="/img/quora_customize_cta_7.png"/>
+			</figure>
+		</div>
 	</div>
 	<div class="main_body left_col"></div>
 	<div class="main_body right_col">
-		<p>In this example, clicking on the answer action will redirect OpenAI's website.</p>
-		<img src="img/quora_answer_button.png"/>
+		<h4 class="margin_top_none">Measuring Success</h4>
+		<div class="squiggle"></div>
 		<p>In order for businesses to understand how well their content is doing, I designed an insights dashboard where users can monitor engagement metrics of their contente, and see valuable data such as business views which only Quora can exclusively provide.</p>
 	</div>
 	<figure class="main_body">
@@ -241,7 +254,30 @@ css-class: quora
 		<img src="img/quora_promoted_answer_stats.png"/>
 		<figcaption>Engagement stats split by organic and paid impressions</figcaption>
 	</figure>
+	<div class="main_body left_col"></div>
+	<div class="main_body right_col">
+		<h4 class="margin_top_none">Next Steps</h4>
+		<div class="squiggle"></div>
+		<p>We are currently in the beginning of the implementation phase of this project. Here are some steps I would like to take in the next iteration of promotional answers.</p>
+		<p><strong>Is promotional content written by individuals actually more effective?</strong></p>
+		<div class="next_step_q1 flex">
+			<figure>
+				<img src="/img/quora_ddg_gabriel.png"/>
+				<figcaption>Control: Show author's identity</figcaption>
+			</figure>
+			<div class="circle">vs</div>
+			<figure>
+				<img src="/img/quora_ddg_brand.png"/>
+				<figcaption>Variant: Show brand identity instead</figcaption>
+			</figure>
+		</div>
+		<p>We introduced a lot of complexity to the product by allowing individuals to write from both their own perspective and from the voice of their brand. To justify the product and enginering complexity, I'd like to run an A/B test where in the variant, we switch out the author's identify for the brand identity for all promotional answers, and see if there's a significant difference in engagement on those answers.</p>
+		<p><strong>More visual explorations</strong></p>
+		<img src="/img/quora_more_visuals.png"/>
+		<p>To get these designs out the door quickly, I used the styles we already had in our design system. I'd love to play around with more visual variants and animations to make the answer action button more engaging (but not distracting) to encourage high quality clicks.</p>
+	</div>
 </div>
+
 
 		
 
