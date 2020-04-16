@@ -271,7 +271,7 @@ css-class: quora
 				<figcaption>Variant: Show brand identity instead</figcaption>
 			</figure>
 		</div>
-		<p>We introduced a lot of complexity to the product by allowing individuals to write from both their own perspective and from the voice of their brand. To justify the product and enginering complexity, I'd like to run an A/B test where in the variant, we switch out the author's identify for the brand identity for all promotional answers, and see if there's a significant difference in engagement on those answers.</p>
+		<p>We introduced a lot of complexity to the product by allowing individuals to write from both their own perspective and from the voice of their brand. To justify the product and enginering complexity, I'd like to run an A/B test where in the variant, we switch out the author's identify for the brand identity for all promotional answers, and see if there's a significant difference in engagement.</p>
 		<p><strong>More visual explorations</strong></p>
 		<img src="/img/quora_more_visuals.png"/>
 		<p>To get these designs out the door quickly, I used the styles we already had in our design system. I'd love to play around with more visual variants and animations to make the answer action button more engaging (but not distracting) to encourage high quality clicks.</p>
