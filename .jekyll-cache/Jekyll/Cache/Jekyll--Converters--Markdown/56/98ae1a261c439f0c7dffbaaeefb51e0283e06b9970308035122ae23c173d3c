@@ -1,0 +1,60 @@
+I"�
+<div class="content-wrapper">
+	<section class="intro">
+		<h2>Quora</h2>
+		<div class="squiggle"></div>
+		<h1>Quora Business Services</h1>
+		<p>A suite of paid tools enabling businesses to leverage Quora’s platform for growth</p>
+	</section>
+</div>
+<p><img class="full_bleed" src="/img/quora_1.png" /></p>
+
+<div class="content-wrapper">
+	<div class="summary left_col">
+		<h3>I lead design on the monetization team at Quora, where we're currently exploring a new revenue stream — Quora business services.</h3>
+		<table>
+			<tr>
+				<th>Role</th>
+				<th>lead designer</th>
+			</tr>
+			<tr>
+				<th>Team</th>
+				<th>1 designer, 2 PMs, 5 engineers</th>
+			</tr>
+			<tr>
+				<th>Tools</th>
+				<th>Figma, React</th>
+			</tr>
+			<tr>
+				<th>Timeline</th>
+				<th>Q1 2020, ongoing</th>
+			</tr>
+		</table>
+	</div>
+	<div class="main_body right_col">
+		<h4 class="margin_top_none">Pursuing a new revenue stream</h4>
+		<div class="squiggle"></div>
+		<p>Towards the end of 2019, the monetization team at Quora focused on exploring what a new stream of revenue outside of ads might look like. We decided to pursue <strong>a paid subscription to a suite of business oriented tools that would allow businesses to grow by leveraging their presence on Quora</strong>
+		</p>
+		<h4>Promotional content on Quora</h4>
+		<div class="squiggle"></div>
+		<p>Businesses like <a href="https://www.quora.com/profile/Jason-M.-Lemkin" target="_">SaaStr</a> and <a href="https://www.quora.com/profile/Gabriel-Weinberg" target="_">DuckDuckGo</a> have found enormous success growing their businesses by having their CEOs write expert answers to questions in their domain expertise— proving Quora's Q&amp;A format and distribution network as a valuable channel to reach valuable customers and raise brand awareness.</p>
+	</div>
+	<div class="main_body promotional_content">
+		<div class="good">
+			<img src="/img/quora_2.png" />
+			<div class="description">
+				<h5>The good</h5>
+				<p><strong>High quality, expert answers</strong> from industry leaders</p>
+				<p><strong>Builds brand awareness for businesses</strong> as executives gain following</p>
+				<p><strong>Increases traffic for businesses</strong> through referral links</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>	&lt;p&gt;However, we also saw mounting discontent from our readers who are starting to distrust Quora because they feel deceived by promotional answers &lt;/p&gt;
+	&lt;p&gt;&lt;strong&gt;How might we amplify Quora's distribution network's value for businesses without degrading the reading experience for our readers?&lt;/strong&gt;&lt;/p&gt;
+</code></pre></div></div>
+
+:ET

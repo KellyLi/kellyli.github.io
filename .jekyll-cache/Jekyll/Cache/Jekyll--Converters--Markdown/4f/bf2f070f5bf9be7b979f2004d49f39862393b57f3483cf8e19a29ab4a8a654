@@ -1,0 +1,136 @@
+I"�<div class="content-wrapper">
+	<section class="intro">
+		<h2>Quora</h2>
+		<div class="squiggle"></div>
+		<h1>Quora Business Services</h1>
+		<p>A suite of paid tools enabling businesses to leverage Quora’s platform for growth</p>
+	</section>
+</div>
+<p><img class="full_bleed" src="/img/quora_1.png" /></p>
+
+<div class="content-wrapper">
+	<div class="summary left_col">
+		<h3>I lead design on the monetization team at Quora, where we're currently exploring a new revenue stream — Quora business services.</h3>
+		<table>
+			<tr>
+				<th>Role</th>
+				<th>lead designer</th>
+			</tr>
+			<tr>
+				<th>Team</th>
+				<th>1 designer, 2 PMs, 5 engineers</th>
+			</tr>
+			<tr>
+				<th>Tools</th>
+				<th>Figma, React</th>
+			</tr>
+			<tr>
+				<th>Timeline</th>
+				<th>Q1 2020, ongoing</th>
+			</tr>
+		</table>
+	</div>
+	<div class="main_body right_col">
+		<h4 class="margin_top_none">Pursuing a New Revenue Stream</h4>
+		<div class="squiggle"></div>
+		<p>Towards the end of 2019, the monetization team at Quora focused on exploring what a new stream of revenue outside of ads might look like. We decided to pursue <strong>a paid subscription to a suite of business oriented tools that would allow businesses to grow by leveraging their presence on Quora</strong>
+		</p>
+		<h4>Writing for Your Businesss</h4>
+		<div class="squiggle"></div>
+		<p>Businesses like <a href="https://www.quora.com/profile/Jason-M.-Lemkin" target="_">SaaStr</a> and <a href="https://www.quora.com/profile/Gabriel-Weinberg" target="_">DuckDuckGo</a> have found enormous success growing their businesses by having their CEOs write expert answers to questions in their domain expertise— proving Quora's Q&amp;A format and distribution network as a valuable channel to reach valuable customers and raise brand awareness.</p>
+	</div>
+	<div class="main_body promotional_content good">
+		<img src="/img/quora_2.png" />
+		<div class="description">
+			<h5>The Good</h5>
+			<p><strong>High quality, expert answers</strong> from industry leaders</p>
+			<p><strong>Builds brand awareness for businesses</strong> as executives gain following</p>
+			<p><strong>Increases traffic for businesses</strong> through referral links</p>
+		</div>
+	</div>
+	<div class="main_body left_col"></div>
+	<div class="main_body right_col">
+		<p>However, we also saw mounting discontent from our readers who are starting to distrust Quora because they feel deceived by promotional answers </p>
+	</div>
+	<div class="main_body promotional_content bad">
+		<img src="/img/quora_3.png" />
+		<div class="description">
+			<h5>The Bad</h5>
+			<p><strong>Decreases trust with readers</strong> when for profit intent isn’t declared upfront</p>
+			<p><strong>Low quality and spammy</strong> when answers are link filled and don't sincerely answer the question</p>
+		</div>
+	</div>
+	<div class="main_body left_col"></div>
+	<div class="main_body right_col">
+		<p><strong>How might we amplify Quora's distribution network's value for businesses without degrading the reading experience for our readers?</strong></p>
+		<h4>Promotional Content as Paid Feature</h4>
+		<div class="squiggle"></div>
+		<p>To reduce the amount of low quality, spammy promotional material on Quora, we decided that <strong>all promotional content must be tied to an account that this paying for a business subscription</strong>.</p>
+		<p>In addition, I <strong>redesigned promotional content to be more transparent in the UI</strong> to set user expectations and rebuild trust.</p>
+		<img src="/img/quora_4.png" />
+		<h4>Leveraging Voices of Individuals and Brands</h4>
+		<div class="squiggle"></div>
+		<p>People have always come to Quora to get expert answers to their questions — that's why we focus so much on real names, credentials, and social signals.</p>
+		<p>A unique advantage of Quora is that there are a lot of high profile executives answering questions about their company and product using their real names and credentials. By putting a human expert to the brand, it humanizes the interaction and makes it feel more authentic and we felt that it was important to preserve this magic and differentiator for our business services.</p>
+		<div class="writer_list flex_column">
+			<div class="writer flex">
+				<img src="/img/quora_gabriel.png" />
+				<div>
+					<p><strong>Gabriel Weinberg</strong></p>
+					<p class="bio">CEO/Founder DuckDuckGo.</p>
+				</div>
+			</div>
+			<div class="writer flex">
+				<img src="/img/quora_susy.png" />
+				<div>
+					<p><strong>Susy Schöneberg</strong></p>
+					<p class="bio">Head of Flexport.org</p>
+				</div>
+			</div>
+			<div class="writer flex">
+				<img src="/img/quora_steve.png" />
+				<div>
+					<p><strong>Steve Johnston</strong></p>
+					<p class="bio">Chief Operating Officer at FlexPoint Media</p>
+				</div>
+			</div>
+			<div class="writer flex">
+				<img src="/img/quora_garry.png" />
+				<div>
+					<p><strong>Garry Tan</strong></p>
+					<p class="bio">Early stage seed investor. Previously a Partner at Y Combinator (2011-2015)</p>
+				</div>
+			</div>
+			<div class="writer flex">
+				<img src="/img/quora_auren.png" />
+				<div>
+					<p><strong>Auren Hoffman</strong></p>
+					<p class="bio">SafeGraph CEO. fmr LiveRamp CEO. Started &amp; sold 5 companies</p>
+				</div>
+			</div>
+		</div>
+		<p>Through user research, we also found that at many companies, business profiles are often ran by a team of marketers who rely on the strength of the brand that users already know and trust. Therefore, our goal was to <strong>design a system that allows businesses to leverage the voices of individual and brands.</strong></p>
+		<div class="tinder_ddg flex">
+			<figure>
+				<img src="/img/quora_write_as_brand.png" />
+				<figcaption>Marketing team from large, trusted brands</figcaption>
+			</figure>
+			<div class="circle">and</div>
+			<figure>
+				<img src="/img/quora_write_as_individual.png" />
+				<figcaption>High profile executives with personal following</figcaption>
+			</figure>
+		</div>
+		<p>In order to enable writers to write from both the voice of their brand and themselves, we setup an account structure where there is an <strong>overarching business profile featuring seats</strong> — where Individuals in these seats can write from their own voice for their business, or write from the voice of the brand.</p>
+		<figure>
+			<img src="/img/quora_account_structure.png" />
+			<figcaption>Business profile account structure</figcaption>
+		</figure>
+<!-- 		<video width="100%" controls autoplay>
+  		<source src="/img/composer.mov" type="video/mp4">
+  		Your browser does not support HTML5 video.
+		</video> -->
+	</div>
+</div>
+
+:ET

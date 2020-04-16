@@ -18,19 +18,41 @@ h3,
 h4,
 h5,
 p,
-li {
+li,
+figcaption {
   font-family: 'Arimo', sans-serif;
   margin: 0;
   padding: 0;
   line-height: 1.4em;
 }
 
+figcaption {
+  font-family:'Roboto Mono', monospace;
+  font-size: 12px;
+  text-align: center;
+}
+
+figure {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
 .flex {
   display: flex;
 }
 
+.flex_column {
+  display: flex;
+  flex-direction: column;
+}
+
 .flex-baseline {
   align-items: baseline;
+}
+
+.inline-block {
+  display: inline-block
 }
 
 /*
@@ -206,7 +228,7 @@ Home page
 .case-studies-label p {
   margin-bottom: 10px;
   color: #CD846D;
-  font-family: 'Roboto Mono', monospace;
+  font-family: 'PT Mono', monospace;
   font-size: 12px;
 }
 
@@ -266,7 +288,7 @@ Home page
 .quora .squiggle {
   width: 58px;
   height: 14px;
-  background-image: url("/img/squiggle.svg");
+  background-image: url("/img/red_squiggle.svg");
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -356,7 +378,7 @@ Site header
 
 /*
 ====================
-Posts
+Post common
 ====================
 */
 
@@ -390,7 +412,7 @@ Posts
 }
 
 .post h5 {
-  margin: 30px 0 20px;
+  margin: 20px 0 20px;
   font-size: 16px;
 }
 
@@ -505,11 +527,26 @@ Posts
   display: block;
   margin: 20px auto;
 }
+
+.post .main_body figure img {
+  margin-bottom: 10px;
+}
+
+.post .main_body figure figcaption {
+  text-align: center;
+}
 .post .main_body p.caption,
 .post .main_body_full p.caption {
   text-align: center;
   margin: 0 auto 20px;
 }
+
+/*
+====================
+Facebook
+====================
+*/
+
 .post.fb .expanded {
   margin-top: 30px;
 }
@@ -548,6 +585,13 @@ Posts
 .post.fb .partner .description {
   width: calc(59%);
 }
+
+/*
+====================
+Palantir
+====================
+*/
+
 .post.palantir img.full_bleed {
   border: 1px solid rgba(0, 0, 0, 0.07);
 }
@@ -560,6 +604,130 @@ Posts
 .post.palantir li {
   padding-bottom: 15px;
 }
+
+/*
+====================
+Quora
+====================
+*/
+
+.quora .promotional_content {
+  margin: 20px 0;
+  padding: 20px;
+}
+
+.quora .promotional_content img {
+  padding: 0;
+  width: calc(60% - 50px);
+  margin: 0 40px 0 0;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.quora .promotional_content .description {
+  display: inline-block;
+  width: 40%;
+  vertical-align: middle;
+}
+
+.quora .good {
+  background: #F6F9FF;
+}
+
+.quora .bad {
+  background: #E6E7E8;
+}
+
+.quora .writer_list .writer  {
+  margin-bottom: 20px;
+}
+
+.quora .writer_list .writer p {
+  margin: 0;
+  font-size: 14px;
+}
+
+.quora .writer_list .writer img {
+  width: 40px;
+  height: 40px;
+  margin: 0;
+  margin-right: 10px;
+}
+
+.quora .tinder_ddg {
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.quora .circle {
+  color: #2E69FF;
+  border-radius: 100%;
+  border: 1px solid #2E69FF;
+  display: block;
+  height: 40px;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  font-family: 'PT Mono', monospace;
+  font-size: 12px
+  font-weight: bold;
+}
+
+.quora .tinder_ddg figure {
+  width: calc(50% - 40px);
+  margin: 0;
+}
+
+.quora .authorship_flow,
+.quora .authorship_flow_alt,
+.account_switcher,
+.quora_customize_cta {
+  padding: 0 20px;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.quora .authorship_flow figure,
+.quora .authorship_flow_alt figure,
+.quora .account_switcher figure {
+  width: calc(25% - 20px);
+  margin-bottom: 10px;
+}
+
+.quora .authorship_flow img,
+.quora .authorship_flow_alt img {
+  margin-bottom: 10px;
+}
+
+.quora .authorship_flow figure figcaption,
+.quora .authorship_flow_alt figure figcaption,
+.quora .account_switcher figure figcaption,
+.quora .quora_customize_cta figure figcaption {
+  text-align: left;
+}
+
+
+.quora .authorship_flow_alt {
+  background-image: url("/img/alternative_bg.svg");
+  background-repeat: repeat repeat;
+  margin-top: 20px;
+}
+
+.quora .quora_customize_cta figure {
+  width: calc(20% - 10px);
+  margin-bottom: 10px;
+}
+
+.quora .main_body img {
+  max-width: none;
+}
+
+/*
+====================
+Media queries
+====================
+*/
 
 @media (max-width: 500px) {
   .desktop_only {
